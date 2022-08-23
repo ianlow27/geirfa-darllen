@@ -1,0 +1,24 @@
+{
+    "name": "ianl28/geirfa-darllen",
+    "description": "Dosbarth PHP i genhedlu HTML i hwyluso dysgwyr i ddarllen testunau yn Gymraeg gyda'r geirfa ar yr ochr.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Low",
+            "email": "ianlow28@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "Ianl28\\GeirfaDarllen\\": "src/"
+      }
+    },
+    "scripts": {
+      "post-status-cmd": "Ianl28\\StarterFiles\\StarterFiles::run"
+    },
+    "require": {
+        "ianl28/starter-files": "dev-main"
+    }
+}

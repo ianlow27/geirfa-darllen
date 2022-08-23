@@ -1,0 +1,20 @@
+#!/bin/sh
+
+cd /home/ian/php/geirfa-darllen/scripts
+date
+if [ "$1" = "v" ]
+then
+  cd /home/ian/php/geirfa-darllen/scripts
+  vi gd
+elif [ "$1" = "vgd" ]
+then
+  cd /home/ian/php/geirfa-darllen/src
+  vi GeirfaDarllen.php
+elif [ "$1" = "r" ]
+then
+  cd /home/ian/php/geirfa-darllen/examples
+  php testharness.php
+fi
+
+  
+
